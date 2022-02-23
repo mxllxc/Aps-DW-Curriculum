@@ -1,10 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
+import '../src/assets/styles/global.css'
+import BackGround from './components/BackGround';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <BackGround />
+      <SideBar />
     </div>
   );
 }
