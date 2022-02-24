@@ -7,9 +7,9 @@ export const Container = styled.div`
     height: 300px;
     margin-left: -4%;
     padding-bottom: 8px;
-    margin-top: 1vh;
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 5px;
 
      h2 {
         font-family: 'Montserrat', sans-serif;

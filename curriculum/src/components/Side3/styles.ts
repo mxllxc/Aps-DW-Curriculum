@@ -6,8 +6,8 @@ export const Container = styled.div`
     width: 230px;
     height: 195px;
     margin-left: -4%;
+    margin-top: 5px;
     padding-bottom: 8px;
-    margin-top: -23vh;
     display: grid;
     grid-template-columns: 1fr;
 

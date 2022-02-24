@@ -5,8 +5,10 @@ import SideBar from './components/SideBar';
 function App() {
   return (
     <div className="App">
-      <BackGround />
+      <div id='grid'>
       <SideBar />
+      <BackGround />
+      </div>
     </div>
   );
 }
