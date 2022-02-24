@@ -7,11 +7,13 @@
 }
 
 :root {
-    --white: #FFFFFF;
+    --white: #ffffff;
 
-    --purple: #7d7bbc;
+    --side: #766a6a;
 
-    --background: #7d7bbc77;
+    --background: #f5f1e8;
+
+    --details: #605050;
 }
 
 @media (max-width: 1080px) {

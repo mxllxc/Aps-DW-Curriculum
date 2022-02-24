@@ -6,7 +6,7 @@ import { AiOutlinePhone } from 'react-icons/ai';
 export default function SideBar1() {
     return(
         <Container>
-            <img src="https://cdn.shopify.com/s/files/1/1918/9937/products/Retro-Hearts-Quilt-Pattern-Free-Digital-Download-Free-Spirit-Fabrics_2000x.jpg?v=1636308025" alt="Profile" />
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHs_LLRR-qbGg/profile-displayphoto-shrink_200_200/0/1638398936646?e=1651104000&v=beta&t=LgCJm3abIFiVX6ok7-P7q8tpwq8gEyEBo5uC7aWlRpo" alt="Profile" />
             <h1>CAMILLE OURIQUES</h1>
             <h2>Desenvolvedora</h2>
             <IconText>
@@ -19,7 +19,7 @@ export default function SideBar1() {
             </IconText>
             <IconText>
             <AiOutlinePhone />
-                <h4>(47) 99258-2247)</h4>
+                <h4>(47) 99258-2247</h4>
             </IconText>
         </Container>
     )
