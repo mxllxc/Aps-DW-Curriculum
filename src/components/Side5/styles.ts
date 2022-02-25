@@ -15,7 +15,7 @@ export const Container = styled.div`
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         text-align: initial;
-        letter-spacing: 7px;
+        letter-spacing: 5px;
         font-size: 0.5cm;
         margin-bottom: -50px;
         margin-top: 20px;
