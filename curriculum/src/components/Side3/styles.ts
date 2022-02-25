@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
 
     background-color: var(--side);
-    width: 230px;
+    width: 260px;
     height: 195px;
     margin-left: -4%;
     margin-top: 5px;

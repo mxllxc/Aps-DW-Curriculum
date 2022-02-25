@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: var(--side);
-    width: 230px;
+    width: 260px;
     height: 363px;
     margin-left: -4%;
     padding-bottom: 8px;
@@ -23,7 +23,7 @@ export const Container = styled.div`
         text-align: center;
         font-size: large;
         font-weight: bold;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
         margin-left: initial;
         margin-top: 10px;
     }

@@ -1,19 +1,13 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
+    height: 280px;
+    margin-left: 70px;
 
-    background-color: var(--side);
-    width: 260px;
-    height: 300px;
-    margin-left: -4%;
-    padding-bottom: 8px;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5px;
-
-     h2 {
+    h2 {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
+        color: black;
         text-align: initial;
         letter-spacing: 7px;
         font-size: 0.5cm;
@@ -27,7 +21,7 @@ export const Container = styled.div`
 
 export const BoxInformation = styled.div`
 
-    margin-top: -30px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 8fr;
     grid-template-rows: 1fr 1fr;
@@ -49,7 +43,7 @@ export const CircleLine = styled.div`
 
     #line1 {
         width: 3px;
-        height: 90px;  
+        height: 120px;  
         background: var(--details);
         margin-top: -30px;
         margin-left: 3px;
@@ -67,16 +61,20 @@ export const CircleLine = styled.div`
 
     #line2 {
         width: 3px;
-        height: 80px;  
+        height: 100px;  
         background: var(--details);
-        margin-top: -30px;
+        margin-top: -40px;
         margin-left: 3px;
     }
     
 `
 
 export const Information = styled.div`
+
+    margin-bottom: 27px;
+
     h1 {
+        color: black;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-align: initial;
@@ -94,6 +92,7 @@ export const Information = styled.div`
         margin-left: -5px;
     }
     h3 {
+        color: black;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin-top: 10px;
