@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Aps-DW-Curriculum/static/js/main.c7975c77.js",
+    "main.js": "/Aps-DW-Curriculum/static/js/main.bfa5f2f3.js",
     "index.html": "/Aps-DW-Curriculum/index.html",
-    "main.c7975c77.js.map": "/Aps-DW-Curriculum/static/js/main.c7975c77.js.map"
+    "main.bfa5f2f3.js.map": "/Aps-DW-Curriculum/static/js/main.bfa5f2f3.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7975c77.js"
+    "static/js/main.bfa5f2f3.js"
   ]
 }
