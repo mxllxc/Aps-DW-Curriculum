@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Aps-DW-Curriculum/static/css/main.3084c1a8.css",
-    "main.js": "/Aps-DW-Curriculum/static/js/main.f6f18262.js",
+    "main.js": "/Aps-DW-Curriculum/static/js/main.b0caea6f.js",
     "index.html": "/Aps-DW-Curriculum/index.html",
     "main.3084c1a8.css.map": "/Aps-DW-Curriculum/static/css/main.3084c1a8.css.map",
-    "main.f6f18262.js.map": "/Aps-DW-Curriculum/static/js/main.f6f18262.js.map"
+    "main.b0caea6f.js.map": "/Aps-DW-Curriculum/static/js/main.b0caea6f.js.map"
   },
   "entrypoints": [
     "static/css/main.3084c1a8.css",
-    "static/js/main.f6f18262.js"
+    "static/js/main.b0caea6f.js"
   ]
 }
