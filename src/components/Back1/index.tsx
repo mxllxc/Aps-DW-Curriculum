@@ -5,6 +5,15 @@ export default function Back1() {
         <Container>
             <h2>EXPERIÊNCIA</h2>
             <BoxInformation>
+            <CircleLine>
+                    <div id="span3" />
+                    <div id="line3" />
+                </CircleLine>
+                    <Information>
+                        <h1>Monitoria de Inglês</h1>
+                        <h2>For You Idiomas</h2>
+                        <h3>Ministro aulas, privadas ou em turmas, de diversos níveis e faixas etárias.</h3>
+                    </Information>
                 <CircleLine>
                     <div id="span1" />
                     <div id="line1" />
@@ -18,7 +27,7 @@ export default function Back1() {
                     <div id="span2" />
                 </CircleLine>
                 <Information>
-                        <h1 id="margDown">Programadora</h1>
+                        <h1>Programadora</h1>
                         <h2>Havan Labs</h2>
                         <h3>Desenvolvimento com foco em frontend, utilizando a metodologia ágil SCRUM.</h3>
                 </Information>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 280px;
+    height: fit-content;
     margin-left: 70px;
 
     h2 {
@@ -43,9 +43,9 @@ export const CircleLine = styled.div`
 
     #line1 {
         width: 3px;
-        height: 120px;  
+        height: 130px;  
         background: var(--details);
-        margin-top: -30px;
+        margin-top: -15px;
         margin-left: 3px;
     }
 
@@ -54,7 +54,7 @@ export const CircleLine = styled.div`
         margin-left: -5px;
         width: 20px;
         height: 20px;
-        margin-top: -19px;
+        margin-top: 0px;
         background: var(--details);
         border-radius: 50%;
     }
@@ -64,6 +64,22 @@ export const CircleLine = styled.div`
         height: 100px;  
         background: var(--details);
         margin-top: -40px;
+        margin-left: 3px;
+    }
+
+    #span3 {
+        margin-left: -5px;
+        width: 20px;
+        height: 20px;
+        background: var(--details);
+        border-radius: 50%;
+    }
+
+    #line3 {
+        width: 3px;
+        height: 130px;  
+        background: var(--details);
+        margin-top: -15px;
         margin-left: 3px;
     }
     
@@ -101,7 +117,5 @@ export const Information = styled.div`
         margin-left: -5px;
     }
 
-    #margDown {
-        margin-top: -20px;
-    }
+    
 `
