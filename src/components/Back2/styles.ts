@@ -7,7 +7,7 @@ export const Container = styled.div`
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        color: black;
+        color: ${props => props.theme.colors.text};
         text-align: initial;
         letter-spacing: 7px;
         font-size: 0.5cm;
@@ -23,7 +23,7 @@ export const Container = styled.div`
         grid-template-columns: 1fr 1fr 1fr;
         
         h3 {
-            color: black;
+            color: ${props => props.theme.colors.text};
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             margin-top: 10px;

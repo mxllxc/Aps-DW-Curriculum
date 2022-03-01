@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 
-    background-color: var(--side);
+    background-color: ${props => props.theme.colors.primary};
     width: 260px;
     height: 300px;
     margin-left: -4%;
@@ -43,14 +43,14 @@ export const CircleLine = styled.div`
         margin-left: -5px;
         width: 20px;
         height: 20px;
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         border-radius: 50%;
     }
 
     #line1 {
         width: 3px;
         height: 90px;  
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         margin-top: -30px;
         margin-left: 3px;
     }
@@ -61,14 +61,14 @@ export const CircleLine = styled.div`
         width: 20px;
         height: 20px;
         margin-top: -19px;
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         border-radius: 50%;
     }
 
     #line2 {
         width: 3px;
         height: 80px;  
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         margin-top: -30px;
         margin-left: 3px;
     }

@@ -7,7 +7,7 @@ export const Container = styled.div`
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        color: black;
+        color: ${props => props.theme.colors.text};
         text-align: initial;
         letter-spacing: 7px;
         font-size: 0.5cm;
@@ -37,14 +37,14 @@ export const CircleLine = styled.div`
         margin-left: -5px;
         width: 20px;
         height: 20px;
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         border-radius: 50%;
     }
 
     #line1 {
         width: 3px;
         height: 130px;  
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         margin-top: -15px;
         margin-left: 3px;
     }
@@ -55,14 +55,14 @@ export const CircleLine = styled.div`
         width: 20px;
         height: 20px;
         margin-top: 0px;
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         border-radius: 50%;
     }
 
     #line2 {
         width: 3px;
         height: 100px;  
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         margin-top: -40px;
         margin-left: 3px;
     }
@@ -71,14 +71,14 @@ export const CircleLine = styled.div`
         margin-left: -5px;
         width: 20px;
         height: 20px;
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         border-radius: 50%;
     }
 
     #line3 {
         width: 3px;
         height: 130px;  
-        background: var(--details);
+        background-color: ${props => props.theme.colors.details};
         margin-top: -15px;
         margin-left: 3px;
     }
@@ -90,7 +90,7 @@ export const Information = styled.div`
     margin-bottom: 27px;
 
     h1 {
-        color: black;
+        color: ${props => props.theme.colors.text};
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-align: initial;
@@ -108,7 +108,7 @@ export const Information = styled.div`
         margin-left: -5px;
     }
     h3 {
-        color: black;
+        color: ${props => props.theme.colors.text};
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin-top: 10px;

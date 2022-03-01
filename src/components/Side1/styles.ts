@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: var(--side);
+    background-color: ${props => props.theme.colors.primary};
     width: 260px;
     height: 363px;
     margin-left: -4%;
@@ -9,6 +9,20 @@ export const Container = styled.div`
     margin-top: 5px;
     display: grid;
     grid-template-columns: 1fr;
+
+    #butTheme {
+        background-color: ${props => props.theme.colors.primary};
+        border: none;
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: -35px;
+    }
+
+    #moon {
+        cursor: pointer;
+        color: ${props => props.theme.colors.text};
+    }
 
     img {
         height: 100px;

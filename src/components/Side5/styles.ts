@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-    background-color: var(--side);
+    background-color: ${props => props.theme.colors.primary};
     width: 260px;
     height: 300px;
     margin-left: -4%;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: var(--side);
+    background-color: ${props => props.theme.colors.primary};
     width: 260px;
     height: 185px;
     margin-left: -4%;
@@ -37,7 +37,6 @@ export const IconText = styled.div`
         font-size: 0.4cm;
         margin-top: auto;
         margin-bottom: auto;
-        color: #e9e9e9;
         letter-spacing: 0.5px;
     }
     a:hover {

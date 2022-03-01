@@ -4,10 +4,14 @@ import Side4 from "../Side4";
 import Side5 from "../Side5";
 import { Container } from "./styles";
 
-export default function SideBar() {
+interface Props {
+    toggleTheme(): void;
+}
+
+export default function SideBar( {toggleTheme}: Props ) {
     return(
         <Container>
-            <Side1 />
+            <Side1 toggleTheme={toggleTheme}/>
             <Side2 />
             <Side4 />
             <Side5 />
