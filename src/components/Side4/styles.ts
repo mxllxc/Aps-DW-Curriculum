@@ -10,13 +10,8 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 5px;
-
-    @media (max-width: 720px) {
-        margin-left: 0px;
-        width: 100vw;
-    }
-
-     h2 {
+    
+    h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         text-align: initial;
@@ -27,6 +22,15 @@ export const Container = styled.div`
         font-weight: bold;
         margin-left: 15px;
     }
+    
+        @media (max-width: 720px) {
+            margin-left: 0px;
+            width: 100vw;
+    
+            h2 {
+                text-align: center;
+            }
+        }
 
 `
 

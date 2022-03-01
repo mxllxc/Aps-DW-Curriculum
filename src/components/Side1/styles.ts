@@ -10,10 +10,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr;
 
-    @media (max-width: 720px) {
-        margin-left: 0px;
-        width: 100vw;
-    }
+    
 
     #butTheme {
         background-color: ${props => props.theme.colors.primary};
@@ -54,6 +51,15 @@ export const Container = styled.div`
         margin-left: initial;
         font-size: 0.4cm;
         margin-top: -13px;
+    }
+
+    @media (max-width: 720px) {
+        margin-left: 0px;
+        width: 100vw;
+
+        h2 {
+            text-align: center;
+        }
     }
 `
 

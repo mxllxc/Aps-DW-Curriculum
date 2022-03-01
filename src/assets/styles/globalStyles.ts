@@ -40,8 +40,9 @@ export default createGlobalStyle`
         #grid {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 34%;
-    }
+        margin-left: -12%;
+        }
+       
     }
 
     body {
