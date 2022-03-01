@@ -5,12 +5,16 @@ export default function Back3() {
         <Container>
             <h2>CERTIFICAÇÕES</h2>
             <Inform>
-                <h3>Desenvolvimento C#</h3>
-                <h4>ProWay | 2021</h4>
+                <h3>Inglês Avançado</h3>
+                <h4>For You Idiomas | 2020</h4>
             </Inform>
             <Inform>
                 <h3>Design Gráfico</h3>
                 <h4>Udemy | 2021</h4>
+            </Inform>
+            <Inform>
+                <h3>Desenvolvimento C#</h3>
+                <h4>ProWay | 2021</h4>
             </Inform>
         </Container>
     )
