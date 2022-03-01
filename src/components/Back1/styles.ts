@@ -25,6 +25,7 @@ export const Container = styled.div`
         h2 {
             text-align: center;
         }
+
     }
 `
 
@@ -98,6 +99,11 @@ export const Information = styled.div`
 
     margin-bottom: 27px;
     margin-left: -10px;
+
+    @media (max-width: 720px) {
+        margin-left: 8px;
+        margin-right: 5px;
+    }
 
     h1 {
         color: ${props => props.theme.colors.text};

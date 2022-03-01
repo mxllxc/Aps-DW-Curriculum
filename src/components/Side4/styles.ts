@@ -85,6 +85,10 @@ export const CircleLine = styled.div`
 `
 
 export const Information = styled.div`
+
+    @media (max-width: 720px) {
+            margin-left: 8px;
+        }
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;

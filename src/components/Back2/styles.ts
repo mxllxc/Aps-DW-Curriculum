@@ -25,6 +25,10 @@ export const Container = styled.div`
         h2 {
             text-align: center;
         }
+
+        #mobileSpace {
+            margin-left: 10px;
+        }
     }
     div {
         margin-top: 20px;
