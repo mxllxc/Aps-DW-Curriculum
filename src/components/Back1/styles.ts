@@ -4,6 +4,7 @@ export const Container = styled.div`
     height: fit-content;
     margin-left: 70px;
 
+    
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -16,7 +17,15 @@ export const Container = styled.div`
         font-weight: bold;
         margin-left: 15px;
     }
+    
+    @media (max-width: 720px) {
+        margin-left: 0px;
+        width: 100vw;
 
+        h2 {
+            text-align: center;
+        }
+    }
 `
 
 export const BoxInformation = styled.div`
@@ -88,6 +97,7 @@ export const CircleLine = styled.div`
 export const Information = styled.div`
 
     margin-bottom: 27px;
+    margin-left: -10px;
 
     h1 {
         color: ${props => props.theme.colors.text};

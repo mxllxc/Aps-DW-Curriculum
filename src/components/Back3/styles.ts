@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
     margin-left: 70px;
     margin-top: 40px;
+
+    
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -15,6 +17,16 @@ export const Container = styled.div`
         font-weight: bold;
         margin-left: 15px;
     }
+    
+    @media (max-width: 720px) {
+        margin-left: 0px;
+        width: 100vw;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
 `
 
 export const Inform = styled.div`

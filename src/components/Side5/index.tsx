@@ -13,8 +13,10 @@ export default function Side5() {
                 <h3>Bootstrap</h3>
                 <h3>C#</h3>
                 <h3>Banco de dados</h3>
-                <h3>Marketing digital</h3>
+                <h3>PostgreSQL</h3>
+                <h3>Git</h3>
                 <h3>Java</h3>
+                <h3>Marketing digital</h3>
             </div>
         </Container>
     )

@@ -11,6 +11,11 @@ export const Container = styled.div`
     grid-template-columns: 1fr;
     margin-top: 5px;
 
+    @media (max-width: 720px) {
+        margin-left: 0px;
+        width: 100vw;
+    }
+
      h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;

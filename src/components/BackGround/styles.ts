@@ -6,4 +6,9 @@ export const Container = styled.div`
     height: 1200;
     z-index: 0;
     margin-left: -70px;
+
+    @media (max-width: 720px) {
+        margin-left: 0px;
+        width: 100vw;
+    }
 `
