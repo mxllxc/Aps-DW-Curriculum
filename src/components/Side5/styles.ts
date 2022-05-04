@@ -48,6 +48,8 @@ export const Container = styled.div`
         margin-right: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+
+
     }
 
 `
