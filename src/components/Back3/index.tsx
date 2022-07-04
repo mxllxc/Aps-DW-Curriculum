@@ -16,6 +16,10 @@ export default function Back3() {
                 <h3>Desenvolvimento C#</h3>
                 <h4>ProWay | 2021</h4>
             </Inform>
+            <Inform>
+                <h3>ReactJS Front-end</h3>
+                <h4>Rocketseat | 2022</h4>
+            </Inform>
         </Container>
     )
 }
