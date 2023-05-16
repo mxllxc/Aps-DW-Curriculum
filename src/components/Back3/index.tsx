@@ -20,6 +20,10 @@ export default function Back3() {
                 <h3>ReactJS Front-end</h3>
                 <h4>Rocketseat | 2022</h4>
             </Inform>
+            <Inform>
+                <h3>Computação em Nuvem</h3>
+                <h4>Estacio/AWS | 2023</h4>
+            </Inform>
         </Container>
     )
 }
