@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Aps-DW-Curriculum/static/js/main.77f7093e.js",
+    "main.js": "/Aps-DW-Curriculum/static/js/main.631be272.js",
     "static/media/profile.jpg": "/Aps-DW-Curriculum/static/media/profile.3db31fb0235826953f3e.jpg",
     "index.html": "/Aps-DW-Curriculum/index.html",
-    "main.77f7093e.js.map": "/Aps-DW-Curriculum/static/js/main.77f7093e.js.map"
+    "main.631be272.js.map": "/Aps-DW-Curriculum/static/js/main.631be272.js.map"
   },
   "entrypoints": [
-    "static/js/main.77f7093e.js"
+    "static/js/main.631be272.js"
   ]
 }
