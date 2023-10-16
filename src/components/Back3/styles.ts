@@ -3,7 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
     margin-left: 70px;
     margin-top: 40px;
+    margin-bottom: 40px;
 
+    >div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
     h2 {
         font-family: 'Montserrat', sans-serif;

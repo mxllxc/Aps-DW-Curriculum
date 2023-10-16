@@ -9,7 +9,7 @@ export default function Side5() {
                 <h3>Javascript</h3>
                 <h3>Typescript</h3>
                 <h3>HTML5</h3>
-                <h3>CSS</h3>
+                <h3>Java</h3>
                 <h3>Bootstrap</h3>
                 <h3>C#</h3>
                 <h3>Banco de dados</h3>
